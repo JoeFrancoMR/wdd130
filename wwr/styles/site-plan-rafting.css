@@ -1,4 +1,4 @@
-/*@import url("https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900");*/
+/*@import url("https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body{
@@ -22,7 +22,7 @@ body{
 
   body {
     font-family: 'Roboto', sans-serif;
-    /*font-family: var(--paragraph-font);*/ 
+    /*font-family: var(--paragraph-font); 
     max-width: 960px; 
     padding: 20px; 
   }
@@ -63,6 +63,80 @@ nav a:link, nav a:visited{
 nav a:hover{
     color: var(--navigation-hover-link-color);
     background-color: var(--navigation-hover-bg-color);
+}*/
+
+/* Importar la fuente Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos generales del cuerpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 960px;
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+    padding: 20px;
+    background-color: var(--secondary-color); /* Ajustar el color de fondo */
+    color: var(--text-color); /* Ajustar el color del texto */
+}
+
+/* Estilos de los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-top: 0; /* Eliminar el espacio superior predeterminado */
+    margin-bottom: 20px; /* Añadir espacio inferior */
+}
+
+/* Estilos del encabezado */
+header {
+    padding: 20px;
+    background-color: var(--accent-color);
+    text-align: center; /* Centrar el contenido del encabezado */
+    margin-bottom: 20px; /* Añadir espacio inferior */
+}
+
+/* Estilos de los párrafos */
+p {
+    padding: 0; /* Eliminar el relleno predeterminado */
+    margin-bottom: 20px; /* Añadir espacio inferior */
+}
+
+/* Estilos de la navegación */
+nav {
+    background-color: var(--navigation-bg-color);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center; /* Centrar los elementos de la navegación */
+}
+
+nav a {
+    display: block;
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    transition: color 0.3s, background-color 0.3s; /* Agregar transiciones suaves */
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--navigation-link-color);
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-bg-color);
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: var(--accent-color); /* Ajustar el color de fondo */
+    padding: 20px;
+    text-align: center; /* Centrar el contenido del pie de página */
+    margin-top: 20px; /* Añadir espacio superior */
+}
+
+/* Estilos de los derechos de autor */
+footer p {
+    margin: 0; /* Eliminar el margen predeterminado */
 }
 
 

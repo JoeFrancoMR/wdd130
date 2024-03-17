@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --primary-color: #2c3e50; /* Main color for headings and links */
-  --secondary-color: #34495e; /* Secondary color for background or accents */
-  --text-color: #ffffff; /* Text color */
+  --primary-color: #49a397; 
+  --secondary-color: #34495e; 
+  --text-color: #ffffff; 
 }
 
 body {
@@ -29,7 +29,7 @@ header {
 }
 
 header img {
-  max-height: 50px; /* Adjust height as needed */
+  max-height: 100px; 
 }
 
 nav a {
