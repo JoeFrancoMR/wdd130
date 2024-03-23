@@ -73,16 +73,21 @@ main {
 article {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.7); 
-  padding: 20px;
-  color: white;
+  padding: 40px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
 }
 
 article img {
-  float: right;
-  margin-left: 20px;
+  float: left;
+  margin-left: 0px;
+  max-width: 70%;  
+  height: auto; 
+  margin-left: 0%; 
 }
 
 footer {
