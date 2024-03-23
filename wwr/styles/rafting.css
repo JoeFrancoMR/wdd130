@@ -22,8 +22,10 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
+  /*display: flex; modification*/
+  display: grid;
+  /*justify-content: space-between;*/
+  grid-template-columns: auto 1fr;
   align-items: center;
   padding: 20px;
 }
@@ -31,6 +33,13 @@ header {
 header img {
   max-height: 100px; 
 }
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*23/3/24*/
+
 
 nav a {
   color: var(--primary-color);
@@ -80,7 +89,7 @@ footer {
   background-color: var(--primary-color);
   padding: 20px;
   color: white;
-  text-align: center;
+  text-align: right; /* i modify this line of code right->center i think looks like better */ 
 }
 
 footer p {
@@ -88,7 +97,11 @@ footer p {
 }
 
 .sociallinks {
+  
   margin-top: 10px;
+  /*i add these two lines of code*/
+  display: flex;
+  justify-content: flex-end;
 }
 
 .sociallinks a {
