@@ -65,39 +65,47 @@ nav a:hover{
     background-color: var(--navigation-hover-bg-color);
 }*/
 
-/* Importar la fuente Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --secondary-color: #ffffff; /* Color de fondo principal */
+    --text-color: #333333; /* Color de texto principal */
+    --heading-font: 'Roboto', sans-serif; /* Fuente de los encabezados */
+    --primary-color: #49a397; /* Color principal */
+    --accent-color: #34495e; /* Color de acento */
+    --navigation-bg-color: #eeeeee; /* Color de fondo de navegación */
+    --navigation-link-color: #333333; /* Color de enlaces de navegación */
+    --navigation-hover-link-color: #ffffff; /* Color de enlaces de navegación al pasar el cursor */
+    --navigation-hover-bg-color: #49a397; /* Color de fondo de enlaces de navegación al pasar el cursor */
+}
 
 /* Estilos generales del cuerpo */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--heading-font);
     max-width: 960px;
-    margin: 0 auto; /* Centrar el contenido horizontalmente */
+    margin: 0 auto;
     padding: 20px;
-    background-color: var(--secondary-color); /* Ajustar el color de fondo */
-    color: var(--text-color); /* Ajustar el color del texto */
+    background-color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 /* Estilos de los encabezados */
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
     color: var(--primary-color);
-    margin-top: 0; /* Eliminar el espacio superior predeterminado */
-    margin-bottom: 20px; /* Añadir espacio inferior */
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 /* Estilos del encabezado */
 header {
     padding: 20px;
     background-color: var(--accent-color);
-    text-align: center; /* Centrar el contenido del encabezado */
-    margin-bottom: 20px; /* Añadir espacio inferior */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Estilos de los párrafos */
 p {
-    padding: 0; /* Eliminar el relleno predeterminado */
-    margin-bottom: 20px; /* Añadir espacio inferior */
+    margin-bottom: 20px;
 }
 
 /* Estilos de la navegación */
@@ -105,7 +113,7 @@ nav {
     background-color: var(--navigation-bg-color);
     font-size: 1.2rem;
     display: flex;
-    justify-content: center; /* Centrar los elementos de la navegación */
+    justify-content: center;
 }
 
 nav a {
@@ -113,7 +121,7 @@ nav a {
     color: var(--navigation-link-color);
     text-decoration: none;
     padding: 1rem;
-    transition: color 0.3s, background-color 0.3s; /* Agregar transiciones suaves */
+    transition: color 0.3s, background-color 0.3s;
 }
 
 nav a:link,
@@ -128,16 +136,13 @@ nav a:hover {
 
 /* Estilos del pie de página */
 footer {
-    background-color: var(--accent-color); /* Ajustar el color de fondo */
+    background-color: var(--accent-color);
     padding: 20px;
-    text-align: center; /* Centrar el contenido del pie de página */
-    margin-top: 20px; /* Añadir espacio superior */
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* Estilos de los derechos de autor */
 footer p {
-    margin: 0; /* Eliminar el margen predeterminado */
+    margin: 0;
 }
-
-
-

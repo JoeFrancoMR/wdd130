@@ -1,5 +1,5 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
   --primary-color: #49a397; 
@@ -83,10 +83,8 @@ article {
 
 article img {
   float: left;
-  margin-left: 0px;
-  max-width: 70%;  
+  max-width: 70%; 
   height: auto; 
-  margin-left: 0%; 
 }
 
 footer {
@@ -101,7 +99,6 @@ footer p {
 }
 
 .sociallinks {
-  
   margin-top: 10px;
   display: flex;
   justify-content: flex-end;
