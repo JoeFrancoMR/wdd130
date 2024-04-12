@@ -77,18 +77,11 @@ table {
 }
 
 table th, table td {
-  border: 1px solid #439bb1;
+  border: 1px solid var(--primary-color); /* Cambiamos el color del borde */
   padding: 10px;
   text-align: left;
-}
-
-table th {
-  background-color: var(--primary-color);
-  color: white;
-}
-
-table td {
-  background-color: #9e7ac0;
+  background-color: var(--primary-color); /* Mantenemos el mismo color de fondo */
+  color: white; /* Añadimos color de texto */
 }
 
 section:nth-child(even) {
